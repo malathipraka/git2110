@@ -1,0 +1,30 @@
+
+public class Classc {
+
+	@BeforeClass
+	public static void test1() {
+		browserLaunch("https://en-gb.facebook.com/");
+		System.out.println("classc test1");
+	}
+		@AfterClass
+		public static void test2() {
+			driver.close();
+			System.out.println("classc test1");
+		}
+			@Before
+			public void test3() {
+				long startTime=System.currentTimeMillis();
+				System.out.println("classc test1");
+			}		
+				@After
+				public void test4() {
+					
+					System.out.println("classc test1");
+				}		
+					@Test
+					public void test5() {
+		
+		System.out.println("classc test1");
+						
+		
+	
